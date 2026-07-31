@@ -1,30 +1,29 @@
 class Kranz < Formula
   desc "Keyboard-first local service orchestrator with a terminal UI"
   homepage "https://github.com/kranz-org/kranz"
-  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kranz-org/kranz/releases/download/v0.3.0/kranz_0.3.0_Darwin_arm64.tar.gz"
-      sha256 "988ab41cd40c2806359de862897e4436275df6e0cbc3da51683cde8cbe27ddd2"
+      url "https://github.com/kranz-org/kranz/releases/download/v0.4.0/kranz_0.4.0_Darwin_arm64.tar.gz"
+      sha256 "92559c374c31b7951c10ee446f90a72d87e53287625f44111903fc0e6b7b07f1"
     end
 
     on_intel do
-      url "https://github.com/kranz-org/kranz/releases/download/v0.3.0/kranz_0.3.0_Darwin_x86_64.tar.gz"
-      sha256 "c1547e9f12862682f01c9ff8a9a0077f5f93ec3a42d4379a27b89e50a0bf9b97"
+      url "https://github.com/kranz-org/kranz/releases/download/v0.4.0/kranz_0.4.0_Darwin_x86_64.tar.gz"
+      sha256 "0725a3580b08fd9312f2ec52f72c58fd046a8eb1a5416f61851a3e7bd93ac37d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kranz-org/kranz/releases/download/v0.3.0/kranz_0.3.0_Linux_arm64.tar.gz"
-      sha256 "e577454d530c4dcf8c954c351af6fe28f1484461910886773ac3dc0410933ab7"
+      url "https://github.com/kranz-org/kranz/releases/download/v0.4.0/kranz_0.4.0_Linux_arm64.tar.gz"
+      sha256 "3899d62aee0a9d73889ff7293fa8c08e1a86f71722e914c3f57d58429bd8189b"
     end
 
     on_intel do
-      url "https://github.com/kranz-org/kranz/releases/download/v0.3.0/kranz_0.3.0_Linux_x86_64.tar.gz"
-      sha256 "eccbaad3e369b9101b48d74cd4b0311d6aa1f819924e72cb2742f610ddb5464c"
+      url "https://github.com/kranz-org/kranz/releases/download/v0.4.0/kranz_0.4.0_Linux_x86_64.tar.gz"
+      sha256 "e8745afd727a5e06906520346c1792a2f16cbf6808530dfa8dd7912fca23eab8"
     end
   end
 
