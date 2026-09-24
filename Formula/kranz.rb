@@ -5,25 +5,25 @@ class Kranz < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/kranz-org/kranz/releases/download/v0.16.0/kranz_0.16.0_Darwin_arm64.tar.gz"
-      sha256 "091ada017c1fdf2b0701025077cdd26ede9cd7bdddb3073c0b09e77e9a53a91a"
+      url "https://github.com/kranz-org/kranz/releases/download/v0.16.1/kranz_0.16.1_Darwin_arm64.tar.gz"
+      sha256 "bef32964d1b763066b298e9da710203f987e8a87db142d2e465f16fccfb8dd06"
     end
 
     on_intel do
-      url "https://github.com/kranz-org/kranz/releases/download/v0.16.0/kranz_0.16.0_Darwin_x86_64.tar.gz"
-      sha256 "2b8ac526068afb72162f622c0018ad0c93173bd00163c7e4834304941c4038e1"
+      url "https://github.com/kranz-org/kranz/releases/download/v0.16.1/kranz_0.16.1_Darwin_x86_64.tar.gz"
+      sha256 "ae12a9e2df9af26e650739436d03931d5040daaea46fee999e7ffe481f19bcac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kranz-org/kranz/releases/download/v0.16.0/kranz_0.16.0_Linux_arm64.tar.gz"
-      sha256 "f1fad4c6e7b835591b57e4f1085a63b7b91324bb6485480cc2805a099ae9a02e"
+      url "https://github.com/kranz-org/kranz/releases/download/v0.16.1/kranz_0.16.1_Linux_arm64.tar.gz"
+      sha256 "de291514eecda8ddb2bd441784875ebed9d98ab14c270861394e9d05fafaf142"
     end
 
     on_intel do
-      url "https://github.com/kranz-org/kranz/releases/download/v0.16.0/kranz_0.16.0_Linux_x86_64.tar.gz"
-      sha256 "0815c74270c24b969c6f76c964e74723ea4a81f1c3076d798274f481f9e71bad"
+      url "https://github.com/kranz-org/kranz/releases/download/v0.16.1/kranz_0.16.1_Linux_x86_64.tar.gz"
+      sha256 "42400f006a064fba4a1f461ddae7432e041365b94c6ec69096dcdba064c921f6"
     end
   end
 
